@@ -1,0 +1,11 @@
+framework module YaokanUISDK {
+  umbrella header "YaokanUISDK.h"
+
+  export *
+  module * { export * }
+}
+
+module YaokanUISDK.Swift {
+    header "YaokanUISDK-Swift.h"
+    requires objc
+}
