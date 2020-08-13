@@ -1,5 +1,5 @@
 PODS:
-  - YaokanUISDK (1.0.0)
+  - YaokanUISDK (1.0.3)
 
 DEPENDENCIES:
   - YaokanUISDK (from `./`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "./"
 
 SPEC CHECKSUMS:
-  YaokanUISDK: 841455b9080cbd90eefb1cb39857c09ab2c4331f
+  YaokanUISDK: abb407e31148a67d5404ef703d9cd9508da8e1ac
 
 PODFILE CHECKSUM: 4325457450cc36974db6b5454c1d8b0cca616157
 

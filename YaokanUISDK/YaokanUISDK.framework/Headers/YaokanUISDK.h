@@ -17,8 +17,6 @@
 //
 #import "YKFadeButton.h"
 #import <SDWebImage/SDWebImage.h>
-//#import "YKSubDeviceViewController.h"
-//#import <YaokanUISDK/YKSubDeviceViewController.h>
 
 typedef void(^YKDeviceCreatedBlock)(YKRemoteDevice * _Nullable obj, NSError * _Nullable error);
 

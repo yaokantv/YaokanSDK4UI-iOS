@@ -85,12 +85,7 @@
             
         }];
         [device remove];
-//        if ([device remove]) {
-//
-//            NSLog(@"删除成功");
-//        } else {
-//            NSLog(@"删除失败");
-//        }
+
     } else if (editingStyle == UITableViewCellEditingStyleInsert) {
     // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view
     }

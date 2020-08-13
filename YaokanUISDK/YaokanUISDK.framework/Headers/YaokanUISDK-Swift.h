@@ -520,11 +520,24 @@ SWIFT_CLASS("_TtC11YaokanUISDK23RDSquareButton176Normal")
 
 SWIFT_CLASS("_TtC11YaokanUISDK16RDSquareButton90")
 @interface RDSquareButton90 : YKFadeButton
+- (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder SWIFT_UNAVAILABLE;
 - (void)awakeFromNib;
 - (void)setImgWithImg:(NSString * _Nonnull)img;
 - (void)setTextWithStr:(NSString * _Nonnull)str;
+@end
+
+@class UIColor;
+
+SWIFT_CLASS("_TtC11YaokanUISDK17RDSquareButtonMPE")
+@interface RDSquareButtonMPE : YKFadeButton
 - (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder SWIFT_UNAVAILABLE;
+- (void)awakeFromNib;
+- (void)setImgWithImg:(NSString * _Nonnull)img;
+- (void)setTextWithStr:(NSString * _Nonnull)str;
+- (void)setImgTinColorWithC:(UIColor * _Nonnull)c;
+- (void)setTextTinColorWithC:(UIColor * _Nonnull)c;
 @end
 
 
@@ -1106,11 +1119,24 @@ SWIFT_CLASS("_TtC11YaokanUISDK23RDSquareButton176Normal")
 
 SWIFT_CLASS("_TtC11YaokanUISDK16RDSquareButton90")
 @interface RDSquareButton90 : YKFadeButton
+- (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder SWIFT_UNAVAILABLE;
 - (void)awakeFromNib;
 - (void)setImgWithImg:(NSString * _Nonnull)img;
 - (void)setTextWithStr:(NSString * _Nonnull)str;
+@end
+
+@class UIColor;
+
+SWIFT_CLASS("_TtC11YaokanUISDK17RDSquareButtonMPE")
+@interface RDSquareButtonMPE : YKFadeButton
 - (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder SWIFT_UNAVAILABLE;
+- (void)awakeFromNib;
+- (void)setImgWithImg:(NSString * _Nonnull)img;
+- (void)setTextWithStr:(NSString * _Nonnull)str;
+- (void)setImgTinColorWithC:(UIColor * _Nonnull)c;
+- (void)setTextTinColorWithC:(UIColor * _Nonnull)c;
 @end
 
 

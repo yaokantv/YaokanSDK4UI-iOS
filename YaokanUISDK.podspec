@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "YaokanUISDK"
-  spec.version      = "1.0.0"
+  spec.version      = "1.0.3"
   spec.summary      = "YaokanUISDK makes your app control your home."
 
   # This description is used to generate tags and improve search results.
@@ -79,7 +79,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "https://github.com/yaokantv/YaokanSDK3-iOS.git", :tag => spec.version.to_s }
+  spec.source       = { :git => "https://github.com/yaokantv/YaokanSDK4UI-iOS.git", :tag => spec.version.to_s }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
