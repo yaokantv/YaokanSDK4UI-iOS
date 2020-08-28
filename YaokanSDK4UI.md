@@ -1,7 +1,7 @@
 # YaokanUISDK iOS 说明文档
 
 
-  文件编号：YAOKANUISDKIOS-20200807
+  文件编号：YAOKANUISDKIOS-20200828
   版本：v1.0.3
 
   深圳遥看科技有限公司
@@ -13,7 +13,7 @@
 | --- | --- | --- | --- |
 | v1 | 新建 | yaokan | 20200727 |
 | v1.0.3 | 支持美亚床椅 | yaokan | 20200807 |
-
+| v1.0.3 | 更新YaokanSDK | yaokan | 20200828 |
 
 
 
@@ -63,15 +63,27 @@ YaokanUISDK 提供遥控器创建界面、遥控器显示界面 、遥控器设�
 
         }];
       
-      /*
-      deviceType传参说明：
-        接入产品为 遥控大师小苹果  传 枚举常量 ConfigDeviceLA
-                 遥控大师大苹果  传 枚举常量 ConfigDeviceBA
-                 遥控大师空调伴侣 传 枚举常量 ConfigDeviceAC
-      configType：
-        softAP配网 传枚举常量 ConfigTypeAP
-        SmartConfig配网  传枚举常量 ConfigTypeSmart
-      */
+       /*
+        deviceType传参说明：
+          接入产品为 遥控大师小苹果  传 枚举常量 ConfigDeviceLA
+                   遥控大师大苹果  传 枚举常量 ConfigDeviceBA
+                   遥控大师空调伴侣 传 枚举常量 ConfigDeviceAC
+        configType：
+          softAP配网 传枚举常量 ConfigTypeAP
+          SmartConfig配网  传枚举常量 ConfigTypeSmart
+          
+          
+          手机热点配网  传枚举常量 ConfigTypeMobileAP
+          此时 SSID和password 可以不传或传空字符串
+          
+          如果手机开启热点后一段时间没设备连接上的，iPhone 会自动关闭热点Wi-Fi。重新进入 "设置-个人热点"，将再次开启。
+          
+          您的手机能否开启 个人热点 功能取决于您使用的运营商，
+          如没有 或是开启后没无法上网的请与您使用的运营商联系。
+          
+          *手机热点配网功能仅 仅限个别产品，更多对接详请与本公司联系。
+          
+        */
       ```
 
 ### 4.3 使用    
